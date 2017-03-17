@@ -5,7 +5,7 @@ namespace JWT.Security
 {
     public class BundleConfig
     {
-        // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
+        // Bundle Config
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new StyleBundle("~/Content/css").Include(
